@@ -1,33 +1,44 @@
 body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat";
-}
-#title {
-	background-color: #ff4c68;
-	color: white;
-}
-
-.container-fluid {
-	padding: 3% 15% 7%;
-}
-h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3.5rem;
-	line-height: 1.5;
-}
-
-h2 {
-	font-family: "Montserrat";
-	font-size: 2rem;
-	line-height: 1.5;
-}
-
-h3 {
-	font-weight: bold;
 }
 
 p {
 	font-size: 0.9rem;
 	color: #8f8f8f;
+}
+
+/* Headings */
+
+
+.big-heading{
+    font-family: 'Montserrat';
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+	padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 /* Navigation bar */
@@ -55,6 +66,13 @@ p {
 	margin: 5% 3% 5% 0;
 }
 
+/* Title section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Title image */
 .title-image {
 	width: 60%;
@@ -66,15 +84,18 @@ p {
 /* Features */
 #features {
 	/* margin: 7% 15%;  <-This was commented to hide the image under the features section */
-	background-color: #fff;
+	
 	position: relative;
 	/* z-index: 1; */
 	font-family: "Ubuntu";
 	font-size: 1rem;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+}
+
 .feature-box {
-	text-align: center;
 	padding: 4.5%;
 }
 
@@ -91,10 +112,13 @@ p {
 /* Testimonial section */
 
 #testimonials {
-	text-align: center;
 	background-color: #ef8172;
-	color: #fff;
-	font-weight: 900;
+}
+
+.testimonial-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .img-testimonial {
@@ -104,21 +128,20 @@ p {
 
 #press {
 	background-color: #ef8172;
-	text-align: center;
 }
 .press-logo {
 	width: 15%;
 	margin: 20px 20px 50px;
 }
 
-.carousel-item {
-	padding: 7% 15%;
-}
-
 /* Pricing section */
 #pricing {
 	padding: 5%;
-	text-align: center;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-cards {
@@ -126,28 +149,9 @@ p {
 }
 
 
-/* Final section */
-#cta{
-    background-color: #ff4c68;
-    padding: 4.5%;
-    text-align: center;
-    color: #fff;
-}
+/*Call to Action section */
 
-.cta{
-    margin: 7% 15%;
-}
-
-
-.call-of-action{
-    font-size: 3.5rem;
-}
 /* Footer section */
-#footer{
-  text-align: center;
-  padding: 7% 15%;
-  background-color: #fff;
-}
 
 .footer-logo{
     padding: 1.5%;
